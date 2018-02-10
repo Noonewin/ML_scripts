@@ -28,7 +28,7 @@ plt.plot(fx, f1(fx), linewidth=4)
 plt.legend(["d=%i" % f1.order], loc="upper left")
 
 
-f2p = sp.polyfit(x, y, 100)
+f2p = sp.polyfit(x, y, 15)
 f2 = sp.poly1d(f2p)
 
 plt.plot(fx, f2(fx), linewidth=4)
